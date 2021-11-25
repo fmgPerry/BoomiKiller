@@ -1,4 +1,4 @@
-# OktaTools
+# BoomiKiller
 
 Steps needed after cloning for Build
 1. Restore Nuget Packages - right click solution --> click Restore Nuget Packages
