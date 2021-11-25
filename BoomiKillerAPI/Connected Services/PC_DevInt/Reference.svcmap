@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3aa61e1c-139d-4111-8df9-8cdb47f4e4af" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://dev0164/pc/ws/nz/co/fmg/webservice/fmgconnect/FMGConnectService?WSDL" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Phone_fmgModel.xsd" MetadataType="Schema" ID="f0696ffd-38e9-4f7c-a658-5be10831d1ba" SourceId="1" SourceUrl="http://dev0164/pc/ws/gw/webservice/pc/pc900/gxmodel/Phone_fmgModel.gx" />
+    <MetadataFile FileName="AccountContactModel.xsd" MetadataType="Schema" ID="8fbc64c6-616c-4f15-b116-ab738c050b30" SourceId="1" SourceUrl="http://dev0164/pc/ws/gw/webservice/pc/pc900/gxmodel/AccountContactModel.gx" />
+    <MetadataFile FileName="FMGConnectService.wsdl" MetadataType="Wsdl" ID="f2ba60ea-e939-43a7-8f76-90a3b42c95c2" SourceId="1" SourceUrl="http://dev0164/pc/ws/nz/co/fmg/webservice/fmgconnect/FMGConnectService?WSDL" />
+    <MetadataFile FileName="AccountModel.xsd" MetadataType="Schema" ID="df7a63ab-bdcf-49e4-a048-0193c4e188e7" SourceId="1" SourceUrl="http://dev0164/pc/ws/gw/webservice/pc/pc900/gxmodel/AccountModel.gx" />
+    <MetadataFile FileName="soapheaders.xsd" MetadataType="Schema" ID="54b975b2-7300-48eb-a7f3-440b4428d97c" SourceId="1" SourceUrl="http://dev0164/pc/ws/gw/xsd/guidewire/soapheaders.xsd" />
+    <MetadataFile FileName="AddressModel.xsd" MetadataType="Schema" ID="e39bbeb0-ef34-4c20-9395-cf8225f51da9" SourceId="1" SourceUrl="http://dev0164/pc/ws/gw/webservice/pc/pc900/gxmodel/AddressModel.gx" />
+    <MetadataFile FileName="AccountContactRoleModel.xsd" MetadataType="Schema" ID="8df6f204-6378-4d64-953a-f476516283f4" SourceId="1" SourceUrl="http://dev0164/pc/ws/gw/webservice/pc/pc900/gxmodel/AccountContactRoleModel.gx" />
+    <MetadataFile FileName="NoteModel.xsd" MetadataType="Schema" ID="caccb2a5-bc57-451b-b473-aa6bd0add736" SourceId="1" SourceUrl="http://dev0164/pc/ws/gw/webservice/pc/pc900/gxmodel/NoteModel.gx" />
+    <MetadataFile FileName="FMG_AccountInfo_v201301.xsd" MetadataType="Schema" ID="9e1e8511-e34a-47ca-ac7f-2bd10d18dce4" SourceId="1" SourceUrl="http://dev0164/pc/ws/gw/webservice/pc/pc900/account/FMG_AccountInfo_v201301.xsd" />
+    <MetadataFile FileName="ContactModel.xsd" MetadataType="Schema" ID="3c51f8ce-a1ff-456a-82eb-493784cb2173" SourceId="1" SourceUrl="http://dev0164/pc/ws/gw/webservice/pc/pc900/gxmodel/ContactModel.gx" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
